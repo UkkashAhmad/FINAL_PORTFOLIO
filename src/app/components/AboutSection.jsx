@@ -27,7 +27,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Masters</li>
-        <li>ISDP Jamia Ashrafia Islamic University</li>
+        <li>ISDP Web Development Ashrafia Islamic University</li>
       </ul>
     ),
   },
@@ -38,7 +38,9 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Udemy React with Maximilian Schwarzmuller</li>
         <li>Udemy MERN with Maximilian Schwarzmuller</li>
-        <li>ISDP Web Development</li>
+        <li>ISDP Web Development One Year Diploma</li>
+        <li>Participated Web App Hackathon at PUCon24</li>
+
       </ul>
     ),
   },
