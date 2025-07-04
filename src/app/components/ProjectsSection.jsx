@@ -17,13 +17,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "MERN Social App",
+    title: "NextJs School Management System",
     description:
-      "Engineered a streamlined MERN (MongoDB, Express.js, React, Node.js) project—Lite Social App. Seamlessly blending modern design with robust functionality, it facilitates social connections through efficient data management and engaging user interactions.",
-    image: "/images/projects/social.png",
+    "A modern and responsive web-based application built with Next.js to streamline school operations. It includes role-based access for admins, teachers, and students, enabling efficient management of students, attendance, classes, subjects, and more — all from a centralized dashboard. Designed for scalability, performance, and ease of use.",
+    image: "/images/projects/School.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/UkkashAhmad/SOCIALMEDIA",
-    previewUrl: "/",
+    gitUrl: "https://github.com/UkkashAhmad/HR_SYSTEM",
+    previewUrl: "https://ukkash-hr-system.vercel.app/admin",
   },
   {
     id: 3,
@@ -54,15 +54,15 @@ const projectsData = [
     gitUrl: "https://github.com/UkkashAhmad/CRUD_WITH_RANDOM_AYAH",
     previewUrl: "https://crudwithayah.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "Full-stack Roadmap",
-  //   description: "Project 5 description",
-  //   image: "/images/projects/6.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 6,
+    title: "Inventory Management System",
+    description: "A sleek and efficient web application designed to manage products, categories, purchases, sales, and returns with ease. Built for businesses to track stock levels, monitor transactions, and streamline operations through a user-friendly dashboard. Fast, reliable, and scalable.",
+    image: "/images/projects/inv.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/UkkashAhmad/inv-system",
+    previewUrl: "https://inv-system.vercel.app/dashboard",
+  },
 ];
 
 const ProjectsSection = () => {
